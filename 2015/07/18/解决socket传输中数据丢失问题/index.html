@@ -16,7 +16,7 @@ sever (receive):
 123456while(1)&amp;#123;    recv(soc,">
 <meta property="og:type" content="article">
 <meta property="og:title" content="解决socket传输中数据丢失问题">
-<meta property="og:url" content="http://bwelco.github.io/2015/07/18/解决socket传输中数据丢失问题/index.html">
+<meta property="og:url" content="http://bwelco.coding.me/2015/07/18/解决socket传输中数据丢失问题/index.html">
 <meta property="og:site_name" content="Bwelco">
 <meta property="og:description" content="[原创]欢迎转载。注明出处。
 最近写一个小程序，想要添加文件上传/下载功能。
@@ -119,6 +119,20 @@ sever (receive):
         </a>
         <div class="flex-col header-title ellipsis">解决socket传输中数据丢失问题</div>
         
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input " autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-share">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
         
     </div>
 </header>
@@ -141,6 +155,43 @@ sever (receive):
       <div class="post-body">
 
         <aside class="post-widget" id="post-widget">
+
+          
+          <div class="post-share" id="post-share">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
 
           
 
@@ -177,9 +228,9 @@ sever (receive):
             <blockquote>
               <p>
                 本文地址：
-                <a href="http://bwelco.github.io/2015/07/18/解决socket传输中数据丢失问题/" target="_blank" rel="external">http://bwelco.github.io/2015/07/18/解决socket传输中数据丢失问题/</a>
+                <a href="http://bwelco.coding.me/2015/07/18/解决socket传输中数据丢失问题/" target="_blank" rel="external">http://bwelco.coding.me/2015/07/18/解决socket传输中数据丢失问题/</a>
               </p>
-              <footer><cite><a href="http://bwelco.github.io">@Bwelco</a></cite></footer>
+              <footer><cite><a href="http://bwelco.coding.me">@Bwelco</a></cite></footer>
             </blockquote>
             </div>
             
@@ -208,7 +259,7 @@ sever (receive):
             
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="解决socket传输中数据丢失问题" data-title="解决socket传输中数据丢失问题" data-url="http://bwelco.github.io/2015/07/18/解决socket传输中数据丢失问题/index.html"></div>
+	<div class="ds-thread" data-thread-key="解决socket传输中数据丢失问题" data-title="解决socket传输中数据丢失问题" data-url="http://bwelco.coding.me/2015/07/18/解决socket传输中数据丢失问题/index.html"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
@@ -245,11 +296,76 @@ sever (receive):
 <div class="mask" id="mask"></div>
 <a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
 
+<script>
+var BLOG_SHARE = {
+    title: "解决socket传输中数据丢失问题",
+    pic: "http://o8yrrj7hr.bkt.clouddn.com/HexoHead.jpg",
+    summary: document.getElementsByName('summary')[0].content,
+    url: "http://bwelco.coding.me/2015/07/18/解决socket传输中数据丢失问题/index.html"
+};
+</script>
+<div class="global-share" id="global-share">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
 
 <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
 
 <script src="/js/main.js"></script>
 
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<script type="text/template" id="search-tpl">
+<li class="item">
+    <a href="/{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</script>
+
+<script src="/js/search.js"></script>
 
 
 

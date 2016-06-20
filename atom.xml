@@ -4,9 +4,9 @@
   <subtitle>封光</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://bwelco.github.io/"/>
+  <link href="http://bwelco.coding.me/"/>
   <updated>2016-06-20T05:46:12.000Z</updated>
-  <id>http://bwelco.github.io/</id>
+  <id>http://bwelco.coding.me/</id>
   
   <author>
     <name>bwelco</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>三星长按Home键搜索</title>
-    <link href="http://bwelco.github.io/2016/06/19/%E4%B8%89%E6%98%9F%E9%95%BF%E6%8C%89Home%E9%94%AE%E6%90%9C%E7%B4%A2/"/>
-    <id>http://bwelco.github.io/2016/06/19/三星长按Home键搜索/</id>
+    <link href="http://bwelco.coding.me/2016/06/19/%E4%B8%89%E6%98%9F%E9%95%BF%E6%8C%89Home%E9%94%AE%E6%90%9C%E7%B4%A2/"/>
+    <id>http://bwelco.coding.me/2016/06/19/三星长按Home键搜索/</id>
     <published>2016-06-20T02:10:00.000Z</published>
     <updated>2016-06-20T05:46:12.000Z</updated>
     
@@ -42,14 +42,14 @@
     </summary>
     
     
-      <category term="Android" scheme="http://bwelco.github.io/tags/Android/"/>
+      <category term="Android" scheme="http://bwelco.coding.me/tags/Android/"/>
     
   </entry>
   
   <entry>
     <title>远程app使用教程及下载</title>
-    <link href="http://bwelco.github.io/2015/09/22/%E8%BF%9C%E7%A8%8Bapp%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E5%8F%8A%E4%B8%8B%E8%BD%BD/"/>
-    <id>http://bwelco.github.io/2015/09/22/远程app使用教程及下载/</id>
+    <link href="http://bwelco.coding.me/2015/09/22/%E8%BF%9C%E7%A8%8Bapp%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E5%8F%8A%E4%B8%8B%E8%BD%BD/"/>
+    <id>http://bwelco.coding.me/2015/09/22/远程app使用教程及下载/</id>
     <published>2015-09-23T01:21:00.000Z</published>
     <updated>2016-06-18T14:35:50.000Z</updated>
     
@@ -82,16 +82,16 @@
     </summary>
     
     
-      <category term="Android" scheme="http://bwelco.github.io/tags/Android/"/>
+      <category term="Android" scheme="http://bwelco.coding.me/tags/Android/"/>
     
-      <category term="Windows" scheme="http://bwelco.github.io/tags/Windows/"/>
+      <category term="Windows" scheme="http://bwelco.coding.me/tags/Windows/"/>
     
   </entry>
   
   <entry>
     <title>解决socket传输中数据丢失问题</title>
-    <link href="http://bwelco.github.io/2015/07/18/%E8%A7%A3%E5%86%B3socket%E4%BC%A0%E8%BE%93%E4%B8%AD%E6%95%B0%E6%8D%AE%E4%B8%A2%E5%A4%B1%E9%97%AE%E9%A2%98/"/>
-    <id>http://bwelco.github.io/2015/07/18/解决socket传输中数据丢失问题/</id>
+    <link href="http://bwelco.coding.me/2015/07/18/%E8%A7%A3%E5%86%B3socket%E4%BC%A0%E8%BE%93%E4%B8%AD%E6%95%B0%E6%8D%AE%E4%B8%A2%E5%A4%B1%E9%97%AE%E9%A2%98/"/>
+    <id>http://bwelco.coding.me/2015/07/18/解决socket传输中数据丢失问题/</id>
     <published>2015-07-18T08:20:00.000Z</published>
     <updated>2016-06-18T14:34:56.000Z</updated>
     
@@ -126,14 +126,14 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://bwelco.github.io/tags/Linux/"/>
+      <category term="Linux" scheme="http://bwelco.coding.me/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>编译openwrt时覆盖配置文件</title>
-    <link href="http://bwelco.github.io/2015/03/30/%E7%BC%96%E8%AF%91openwrt%E6%97%B6%E8%A6%86%E7%9B%96%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/"/>
-    <id>http://bwelco.github.io/2015/03/30/编译openwrt时覆盖配置文件/</id>
+    <link href="http://bwelco.coding.me/2015/03/30/%E7%BC%96%E8%AF%91openwrt%E6%97%B6%E8%A6%86%E7%9B%96%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/"/>
+    <id>http://bwelco.coding.me/2015/03/30/编译openwrt时覆盖配置文件/</id>
     <published>2015-03-30T15:52:00.000Z</published>
     <updated>2016-06-18T14:36:13.000Z</updated>
     
@@ -207,16 +207,16 @@
     </summary>
     
     
-      <category term="openwrt" scheme="http://bwelco.github.io/tags/openwrt/"/>
+      <category term="openwrt" scheme="http://bwelco.coding.me/tags/openwrt/"/>
     
-      <category term="Linux" scheme="http://bwelco.github.io/tags/Linux/"/>
+      <category term="Linux" scheme="http://bwelco.coding.me/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>To Fast &amp; Furious</title>
-    <link href="http://bwelco.github.io/2015/03/25/To-Fast-Furious/"/>
-    <id>http://bwelco.github.io/2015/03/25/To-Fast-Furious/</id>
+    <link href="http://bwelco.coding.me/2015/03/25/To-Fast-Furious/"/>
+    <id>http://bwelco.coding.me/2015/03/25/To-Fast-Furious/</id>
     <published>2015-03-25T13:59:00.000Z</published>
     <updated>2016-06-18T14:36:24.000Z</updated>
     
@@ -245,14 +245,14 @@
     </summary>
     
     
-      <category term="电影" scheme="http://bwelco.github.io/tags/%E7%94%B5%E5%BD%B1/"/>
+      <category term="电影" scheme="http://bwelco.coding.me/tags/%E7%94%B5%E5%BD%B1/"/>
     
   </entry>
   
   <entry>
     <title>Openwrt拨号结果</title>
-    <link href="http://bwelco.github.io/2015/01/11/Openwrt%E6%8B%A8%E5%8F%B7%E7%BB%93%E6%9E%9C/"/>
-    <id>http://bwelco.github.io/2015/01/11/Openwrt拨号结果/</id>
+    <link href="http://bwelco.coding.me/2015/01/11/Openwrt%E6%8B%A8%E5%8F%B7%E7%BB%93%E6%9E%9C/"/>
+    <id>http://bwelco.coding.me/2015/01/11/Openwrt拨号结果/</id>
     <published>2015-01-12T06:22:00.000Z</published>
     <updated>2016-06-18T14:36:40.000Z</updated>
     
@@ -275,16 +275,16 @@
     </summary>
     
     
-      <category term="openwrt" scheme="http://bwelco.github.io/tags/openwrt/"/>
+      <category term="openwrt" scheme="http://bwelco.coding.me/tags/openwrt/"/>
     
-      <category term="Linux" scheme="http://bwelco.github.io/tags/Linux/"/>
+      <category term="Linux" scheme="http://bwelco.coding.me/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>Openwrt SDK 编译生成ipk过程</title>
-    <link href="http://bwelco.github.io/2014/06/30/Openwrt-SDK-%E7%BC%96%E8%AF%91%E7%94%9F%E6%88%90ipk%E8%BF%87%E7%A8%8B/"/>
-    <id>http://bwelco.github.io/2014/06/30/Openwrt-SDK-编译生成ipk过程/</id>
+    <link href="http://bwelco.coding.me/2014/06/30/Openwrt-SDK-%E7%BC%96%E8%AF%91%E7%94%9F%E6%88%90ipk%E8%BF%87%E7%A8%8B/"/>
+    <id>http://bwelco.coding.me/2014/06/30/Openwrt-SDK-编译生成ipk过程/</id>
     <published>2014-07-01T06:19:00.000Z</published>
     <updated>2016-06-18T14:36:53.000Z</updated>
     
@@ -304,14 +304,14 @@
     </summary>
     
     
-      <category term="openwrt" scheme="http://bwelco.github.io/tags/openwrt/"/>
+      <category term="openwrt" scheme="http://bwelco.coding.me/tags/openwrt/"/>
     
   </entry>
   
   <entry>
     <title>c语言大数相加&amp;相乘</title>
-    <link href="http://bwelco.github.io/2014/06/24/c%E8%AF%AD%E8%A8%80%E5%A4%A7%E6%95%B0%E7%9B%B8%E5%8A%A0-%E7%9B%B8%E4%B9%98/"/>
-    <id>http://bwelco.github.io/2014/06/24/c语言大数相加-相乘/</id>
+    <link href="http://bwelco.coding.me/2014/06/24/c%E8%AF%AD%E8%A8%80%E5%A4%A7%E6%95%B0%E7%9B%B8%E5%8A%A0-%E7%9B%B8%E4%B9%98/"/>
+    <id>http://bwelco.coding.me/2014/06/24/c语言大数相加-相乘/</id>
     <published>2014-06-25T00:13:00.000Z</published>
     <updated>2016-06-18T14:37:04.000Z</updated>
     
@@ -326,14 +326,14 @@
     </summary>
     
     
-      <category term="C语言" scheme="http://bwelco.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
+      <category term="C语言" scheme="http://bwelco.coding.me/tags/C%E8%AF%AD%E8%A8%80/"/>
     
   </entry>
   
   <entry>
     <title>AR9331/AR9344 网口、Led修正方法</title>
-    <link href="http://bwelco.github.io/2014/05/14/AR9331-AR9344-%E7%BD%91%E5%8F%A3%E3%80%81Led%E4%BF%AE%E6%AD%A3%E6%96%B9%E6%B3%95/"/>
-    <id>http://bwelco.github.io/2014/05/14/AR9331-AR9344-网口、Led修正方法/</id>
+    <link href="http://bwelco.coding.me/2014/05/14/AR9331-AR9344-%E7%BD%91%E5%8F%A3%E3%80%81Led%E4%BF%AE%E6%AD%A3%E6%96%B9%E6%B3%95/"/>
+    <id>http://bwelco.coding.me/2014/05/14/AR9331-AR9344-网口、Led修正方法/</id>
     <published>2014-05-14T14:23:00.000Z</published>
     <updated>2016-06-20T06:01:18.000Z</updated>
     
@@ -367,14 +367,14 @@
     </summary>
     
     
-      <category term="openwrt" scheme="http://bwelco.github.io/tags/openwrt/"/>
+      <category term="openwrt" scheme="http://bwelco.coding.me/tags/openwrt/"/>
     
   </entry>
   
   <entry>
     <title>关于我</title>
-    <link href="http://bwelco.github.io/2014/03/20/%E5%85%B3%E4%BA%8E%E6%88%91/"/>
-    <id>http://bwelco.github.io/2014/03/20/关于我/</id>
+    <link href="http://bwelco.coding.me/2014/03/20/%E5%85%B3%E4%BA%8E%E6%88%91/"/>
+    <id>http://bwelco.coding.me/2014/03/20/关于我/</id>
     <published>2014-03-20T23:01:00.000Z</published>
     <updated>2016-06-18T14:31:44.000Z</updated>
     
