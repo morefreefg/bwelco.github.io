@@ -70,7 +70,7 @@
 						<li>Tags</li>
 						
 						
-						<li>Über</li>
+						<li>About</li>
 						
 					</ul>
 				</div>
@@ -107,7 +107,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/Android/" style="font-size: 10px;">Android</a> <a href="/tags/C语言/" style="font-size: 10px;">C语言</a> <a href="/tags/Linux/" style="font-size: 15px;">Linux</a> <a href="/tags/Windows/" style="font-size: 10px;">Windows</a> <a href="/tags/openwrt/" style="font-size: 20px;">openwrt</a> <a href="/tags/电影/" style="font-size: 10px;">电影</a>
+						<a href="/tags/Android/" style="font-size: 13.33px;">Android</a> <a href="/tags/C语言/" style="font-size: 10px;">C语言</a> <a href="/tags/Linux/" style="font-size: 16.67px;">Linux</a> <a href="/tags/Windows/" style="font-size: 10px;">Windows</a> <a href="/tags/openwrt/" style="font-size: 20px;">openwrt</a> <a href="/tags/电影/" style="font-size: 10px;">电影</a>
 					</div>
 				</section>
 				
@@ -172,6 +172,72 @@
 </nav>
 
       <div class="body-wrap">
+  
+    <article id="post-三星长按Home键搜索" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/06/19/三星长按Home键搜索/" class="article-date">
+  	<time datetime="2016-06-20T02:10:00.000Z" itemprop="datePublished">2016-06-19</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/06/19/三星长按Home键搜索/">三星长按Home键搜索</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>手持一部Samsung Galaxy S7 Edge。长按Home键可以进行相关的操作，但是不是在默认程序里面设置的。<br>要跳转到专门的设置里面。<br>三星官方也并没有提供这个接口，Google一圈也搜索不到。<br>里面默认选择的除了三星自家的软件还有一个手机百度。长按Home键可以进行搜索。<br>这就很不爽了，难道我只能忍受百度这个大毒瘤么，要知道长按home键搜索也是个很实用的功能。</p>
+<p>身为程序狗，默默打开反编译软件，结果看代码看了一圈也没什么相关的地方。这时候我扫了一眼AndroidMainfest。在相关Activity的标签下看到了这个<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"> <span class="tag">&lt;<span class="name">intent-filter</span>&gt;</span></span><br><span class="line">       <span class="tag">&lt;<span class="name">action</span> <span class="attr">android:name</span>=<span class="string">"android.intent.action.ASSIST"</span> /&gt;</span></span><br><span class="line">       <span class="tag">&lt;<span class="name">category</span> <span class="attr">android:name</span>=<span class="string">"android.intent.category.DEFAULT"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">intent-filter</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>ASSIST，设置那边也叫ASSIST， 这个应该逃不掉了吧。<br>好的。正文开始了。</p>
+<p>下面就是做搜索界面，还是看百度的AndroidMainfest。这个标签下， android:theme=”@style/NoTitleNoAnimationNoBackground”<br><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"> &lt;style <span class="built_in">name</span>=<span class="string">"NoTitleNoAnimationNoBackground"</span> parent=<span class="string">"@style/NoTitle"</span>&gt;</span><br><span class="line">     &lt;<span class="built_in">item</span> <span class="built_in">name</span>=<span class="string">"android:windowBackground"</span>&gt;@color/fast_search_activity_transparent&lt;/<span class="built_in">item</span>&gt;</span><br><span class="line">     &lt;<span class="built_in">item</span> <span class="built_in">name</span>=<span class="string">"android:windowIsTranslucent"</span>&gt;<span class="literal">true</span>&lt;/<span class="built_in">item</span>&gt;</span><br><span class="line">     &lt;<span class="built_in">item</span> <span class="built_in">name</span>=<span class="string">"android:windowAnimationStyle"</span>&gt;@null&lt;/<span class="built_in">item</span>&gt;</span><br><span class="line"> &lt;/style&gt;</span><br><span class="line"></span><br><span class="line">&lt;style <span class="built_in">name</span>=<span class="string">"NoTitle"</span> parent=<span class="string">"@android:style/Theme.NoTitleBar"</span>&gt;</span><br><span class="line">    &lt;<span class="built_in">item</span> <span class="built_in">name</span>=<span class="string">"android:windowBackground"</span>&gt;@color/window_background_color&lt;/<span class="built_in">item</span>&gt;</span><br><span class="line">    &lt;<span class="built_in">item</span> <span class="built_in">name</span>=<span class="string">"android:windowContentOverlay"</span>&gt;@null&lt;/<span class="built_in">item</span>&gt;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure></p>
+<p>这就可以实现背景透明了。</p>
+<p>下面就是写个EditText，然后加一个ListView。<br>问题来了，listview数据哪里来。  百度并没有提供相关接口，怎么办呐？</p>
+<p>抓包大法吼啊，开FireFox debug控制台，搜到相关接口是<br><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">http:</span>//suggestion.baidu.com/su?action=opensearch&amp;wd=<span class="string">"keyword"</span></span><br></pre></td></tr></table></figure></p>
+<p>返回一个json，自己解析下放到listView里面就行。</p>
+<p>相关代码放到GitHub上面了</p>
+<p><a href="https://github.com/bwelco/SumsungSearch/" target="_blank" rel="external">https://github.com/bwelco/SumsungSearch/</a></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android/">Android</a></li></ul>
+	</div>
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
   
     <article id="post-远程app使用教程及下载" class="article article-type-post" itemscope itemprop="blogPost">
   
